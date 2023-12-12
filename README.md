@@ -12,6 +12,9 @@ Tegevus | Aadress | Kirjeldus | Küsimus märk / Lisu saadaval | Saadaval käsk
 --- | --- | --- | --- | --- |
 POST | statistics/articleStatistics | Saadab kliendi interneti brauser informatsiooni ERR-isse | Ei
 GET | electricityMarketData/get | Võta elektri börsihind andmed tänaselt ja homselt | Ei
+GET | euriborData/get | Võta kuue kuud EURIBOR andmeid | Ei
+GET | exchangeRatesData/get | Võta Euroopa Keskpanga Ametlikud Valuutakursid andmed | Ei
+GET | gasPriceData/get | Võta kütusehinnad arved andmeist (ainult gaasnumbrid on 95, 98 ja D) | Ei
 GET | geoblock/inEstonia | Kontrolli külastaja elab Eestis või mitte. | Ei
 GET | radioSchedule/getExactSchedules | Loe täpselt ajakava raadiod kanalis. | Jah (vajalik) | `channel` (vikerraadio, raadio2, klassikaraadio, raadio4, raadiotallinn)
 GET | tvSchedule/getExactSchedules | Loe täpselt ajakava televiisorid kanalis. | Jah (vajalik) | `channel` (etv, etv2, etvpluss)
